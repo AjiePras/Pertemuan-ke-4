@@ -1,0 +1,193 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 50px;
+    color: white;
+}
+.navbar h1 {
+    margin: 0;
+    font-size: 30px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 199);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 5px 30px 2px black;
+}
+
+.left{
+    /* border: 1px solid;  */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left h1{
+    font-size: 40px;
+}
+
+.left p{
+    font-size: 20px;
+}
+
+.right{
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 5px;
+    background-color: grey;
+}
+
+.bagian1{
+    display: flex;
+    padding: 20px;
+}
+
+.spongebob{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50vh;
+}
+
+.kanan{
+    /* border: 1px solid;  */
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.kanan h1{
+    font-size: 30px;
+}
+
+.kanan p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    width: 10rem;
+    height: 2rem;
+}
+
+.kiri{
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.bagian2{
+    display: flex;
+    padding: 20px;
+}
+
+.squidward{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(127, 235, 235);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50vh;
+}
+
+.squid_kiri{
+    /* border: 1px solid;  */
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.squid_kiri h1{
+    font-size: 30px;
+}
+
+.squid_kiri p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    width: 10rem;
+    height: 2rem;
+}
+
+.squid_kanan{
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 15vh;
+    background-color: #333;
+    box-shadow: 0px 20px 40px 10px;
+}
+
+.footer h1{
+    color: orange;
+}
